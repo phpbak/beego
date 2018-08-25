@@ -1,0 +1,15 @@
+2018/08/23 18:05:54.340 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/23 18:05:54.341 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/23 18:05:54.342 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
+2018/08/23 18:06:46.850 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/23 18:06:46.852 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/23 18:06:46.852 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
+2018/08/23 18:08:00.927 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/23 18:08:00.927 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/23 18:08:00.928 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
+2018/08/23 18:08:45.034 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/23 18:08:45.034 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/23 18:08:45.035 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
+2018/08/23 18:10:12.315 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/23 18:10:12.315 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/23 18:10:12.315 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
