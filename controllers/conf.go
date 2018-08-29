@@ -29,7 +29,8 @@ func (self *ConfController) Get() {
 	//fmt.Println(key2)
 	self.Data["key1"] = key1
 	self.Data["key2"] = key2
-	self.TplName = "conf/index.tpl"
+	//self.TplName = "conf/index.tpl"
+	self.display("conf/index")
 }
 //读取框架配置文件
 func (self *ConfController) Getapp() {

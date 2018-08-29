@@ -13,3 +13,13 @@
 2018/08/23 18:10:12.315 [D] [asm_amd64.s:573]  this is a test, my name is stu01
 2018/08/23 18:10:12.315 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
 2018/08/23 18:10:12.315 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
+2018/08/29 09:23:49.018 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/29 09:23:49.019 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/29 09:23:49.019 [W] [asm_amd64.s:573]  this is a warn, my name is stu03
+2018/08/29 09:31:41.778 [W] [templatefunc.go:253]  urlfor endpoint must like path.controller.method
+2018/08/29 09:31:42.957 [W] [templatefunc.go:253]  urlfor endpoint must like path.controller.method
+2018/08/29 09:31:47.422 [W] [templatefunc.go:253]  urlfor endpoint must like path.controller.method
+2018/08/29 09:32:09.279 [W] [templatefunc.go:253]  urlfor endpoint must like path.controller.method
+2018/08/29 14:44:53.629 [D] [asm_amd64.s:573]  this is a test, my name is stu01
+2018/08/29 14:44:53.629 [D] [asm_amd64.s:573]  this is a trace, my name is stu02
+2018/08/29 14:44:53.629 [W] [asm_amd64.s:573]  this is a warn, my name is stu03

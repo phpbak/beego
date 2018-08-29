@@ -24,3 +24,13 @@ func (self *SessionController) Get() {
     self.Data["datas"] = v
     self.TplName = "session/index.tpl"
 }
+
+func (self *SessionController) Cookie() {
+    self.Ctx.SetCookie("name", "this is cookie", 100, "/")  // 设置cookie
+    namestr := self.Ctx.GetCookie("name")
+    if namestr == "" {        
+        self.Ctx.WriteString("not cookie")
+    } 
+    self.Data["datas"] = namestr
+    self.TplName = "session/index.tpl"
+}

@@ -11,7 +11,8 @@ type FileController struct {
 }
 
 func (self *FileController) Index() {
-	self.TplName = "file/index.tpl"
+	//self.TplName = "file/index.tpl"
+    self.display()
 }
 
 func (self *FileController) Post() {

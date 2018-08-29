@@ -1,0 +1,3 @@
+login success
+{{.uid}}
+{{.pwd}}

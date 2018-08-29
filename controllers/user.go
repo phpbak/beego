@@ -25,3 +25,9 @@ func (self *UserController) RedirectBaidu() {
 	//self.URLFor("UserController.Edit")
 	self.Ctx.Redirect(302,"http://www.baidu.com")	
 }
+//返回json
+func (self *UserController) Get() {
+	mystruct := map[string]string{"uid": "zhjun","info":"this is info"}
+    self.Data["json"] = &mystruct
+    self.ServeJSON()
+}
