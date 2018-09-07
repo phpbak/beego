@@ -15,6 +15,7 @@
 <li>9.<a href="{{urlfor "UserController.Get"}}">杂项</a><br/></li>
 <li>10.<a href="{{urlfor "SessionController.Get"}}">Session与Cookie</a><br/></li>
 <li>11.<a href="{{urlfor "MainController.Get"}}">首页</a><br/></li>
+<li>12.<a href="{{urlfor "HttpController.Index"}}">POST json数据</a><br/></li>
 </div>
 <br/><br/>
 <hr>

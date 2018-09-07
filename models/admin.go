@@ -1,8 +1,8 @@
 package models
 
 import (
-"github.com/astaxie/beego"
-	 "github.com/astaxie/beego/orm"
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/orm"
 )
 
 type Admin struct {
@@ -27,14 +27,12 @@ func (a *Admin) TableName() string {
 	return TableName("uc_admin")
 }
 
-func TableName(name string) string {
-	return beego.AppConfig.String("db.prefix") + name
-}
-
 func init() {
 	orm.RegisterModel(new(Admin))
 }
-
+func TableName(name string) string {
+	return beego.AppConfig.String("db.prefix") + name
+}
 func AdminAdd(a *Admin) (int64, error) {
 	return orm.NewOrm().Insert(a)
 }
